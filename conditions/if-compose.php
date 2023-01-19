@@ -24,7 +24,11 @@ echo "<br><br>";
 $animal = "Chat";
 $vivant = true;
 echo "2.Est-ce un Chat vivant : ";
-
+    if($animal == "Chat" && $vivant == true){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
 
 //----------------------------------------
@@ -32,7 +36,11 @@ echo "<br><br>";
 $animal = "Chien";
 $vivant = true;
 echo "3.Est-ce un Chat vivant : ";
-
+    if($animal == "Chat" && $vivant == true){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
 
 //----------------------------------------
@@ -40,7 +48,11 @@ echo "<br><br>";
 $animal = "Chat";
 $vivant = false;
 echo "4.Est-ce un Chat vivant : ";
-
+    if($animal == "Chat" && $vivant == true){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
 
 //----------------------------------------
@@ -48,7 +60,11 @@ echo "<br><br>";
 $animal = "Chien";
 $vivant = false;
 echo "5.Est-ce un Chat vivant : ";
-
+    if($animal == "Chat" && $vivant == true){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
 
 //----------------------------------------
@@ -60,7 +76,11 @@ echo "Avec le 'OU' une ou toutes conditions doivent etre vraie. <br><br>";
 $animal = "Chat";
 $vivant = true;
 echo "6.Est-ce un Chat vivant ou un etre vivant : ";
-
+    if($animal == "Chat" || $vivant == true ){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
 
 //----------------------------------------
@@ -68,7 +88,11 @@ echo "<br><br>";
 $animal = "Chat";
 $vivant = false;
 echo "7.Est-ce un Chat vivant ou un etre vivant : ";
-
+    if($animal == "Chat" || $vivant == true ){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
 
 //----------------------------------------
@@ -76,7 +100,11 @@ echo "<br><br>";
 $animal = "Chien";
 $vivant = false;
 echo "8.Est-ce un Chat vivant ou un etre vivant : ";
-
+    if($animal == "Chat" || $vivant == true ){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
 
 //----------------------------------------
@@ -84,5 +112,9 @@ echo "<br><br>";
 $animal = "Chien";
 $vivant = true;
 echo "9.Est-ce un Chat vivant ou un etre vivant : ";
-
+    if($animal == "Chat" || $vivant == true ){
+        echo "Oui";
+    }else{
+        echo "Non";
+    }
 echo "<br><br>";
